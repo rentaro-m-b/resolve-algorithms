@@ -1,3 +1,3 @@
-pub fn hello() {
-    println!("Hello, Rust!");
+pub fn hello(input: String) {
+    println!("Hello, {}!", input);
 }
